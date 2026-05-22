@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services & Pricing — CompMedic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">Comp<span>Medic</span></a>
+            <button class="burger-menu"><span></span><span></span><span></span></button>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link active">Services & Pricing</a>
+                <a href="contacts.html" class="nav-link">Contact Us</a>
+            </nav>
+            <a href="#" id="open-modal-btn" class="btn btn-outline header-btn">Call a Technician</a>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Transparent Pricing. No Hidden Charges.</h1>
+            <p>All prices are agreed upon before any work begins. Free diagnostics included with every repair.</p>
+        </div>
+    </section>
+
+    <section class="pricing-section">
+        <div class="container">
+            <h2 class="pricing-cat-title">Hardware Repairs</h2>
+            <div class="table-responsive">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Price</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Screen Replacement</td>
+                            <td><strong>from $49</strong></td>
+                            <td><a href="contacts.html" class="btn btn-sm">Order Repair</a></td>
+                        </tr>
+                        <tr>
+                            <td>Battery / Power Jack Fix</td>
+                            <td><strong>from $39</strong></td>
+                            <td><a href="contacts.html" class="btn btn-sm">Order Repair</a></td>
+                        </tr>
+                        <tr>
+                            <td>SSD / HDD Upgrade</td>
+                            <td><strong>from $29</strong></td>
+                            <td><a href="contacts.html" class="btn btn-sm">Order Repair</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 class="pricing-cat-title" style="margin-top: 40px;">Software & Maintenance</h2>
+            <div class="table-responsive">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Price</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>OS Installation (Windows / macOS) with Drivers</td>
+                            <td><strong>from $35</strong></td>
+                            <td><a href="contacts.html" class="btn btn-sm">Order Repair</a></td>
+                        </tr>
+                        <tr>
+                            <td>Full Dust Cleaning & Thermal Paste Application</td>
+                            <td><strong>from $25</strong></td>
+                            <td><a href="contacts.html" class="btn btn-sm">Order Repair</a></td>
+                        </tr>
+                        <tr>
+                            <td>Data Recovery Services</td>
+                            <td><strong>from $45</strong></td>
+                            <td><a href="contacts.html" class="btn btn-sm">Order Repair</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="price-factors bg-light">
+        <div class="container text-center">
+            <h2>How is the Final Price Calculated?</h2>
+            <p class="max-w-600">The total cost depends on the exact issue and any necessary replacement parts. We perform a free diagnostic check first, tell you the exact price, and only start working after you give the green light.</p>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Do I pay for diagnostics if I choose not to repair?</h4>
+                    <p>No, our diagnostic check is completely free, with absolutely no obligation required.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How long does a typical repair take?</h4>
+                    <p>Most software configuration issues and hardware part replacements take between 1 to 3 hours.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Do you provide a warranty?</h4>
+                    <p>Yes, we provide an official warranty for up to 12 months on all replacement parts and labor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="final-cta text-center">
+        <div class="container">
+            <h2>Have a Specific Issue Not Listed Here?</h2>
+            <a href="contacts.html" class="btn btn-primary" style="margin-top: 20px;">Ask a Technician Directly</a>
+        </div>
+    </section>
+
+    <div id="phone-modal" class="modal-overlay">
+        <div class="modal-window">
+           <button class="modal-close">&times;</button>
+           <h3>Call a Technician</h3>
+           <p>Our manager is ready to help you. Click below to call us directly:</p>
+            <div class="modal-phone-box">
+              <a href="tel:+15550192834" class="modal-phone-number">+1 (555) 019-2834</a>
+            </div>
+            <a href="tel:+15550192834" class="btn btn-primary modal-call-btn">Call Now</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 PC Repair Experts. All rights reserved.</p>
+            <p>Open Daily: 8:00 AM – 8:00 PM</p>
+            <div class="footer-socials">
+                <a href="#">Telegram</a>
+                <a href="#">WhatsApp</a>
+                <a href="tel:+15550192834">Call Now</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

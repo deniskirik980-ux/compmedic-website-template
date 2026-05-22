@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CompMedic — Fast PC & Laptop Repair Experts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">Comp<span>Medic</span></a>
+            <button class="burger-menu"><span></span><span></span><span></span></button>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="services.html" class="nav-link">Services & Pricing</a>
+                <a href="contacts.html" class="nav-link">Contact Us</a>
+            </nav>
+            <a href="#" id="open-modal-btn" class="btn btn-outline header-btn">Call a Technician</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Fast & Reliable Computer Repair with a 1-Year Warranty</h1>
+                <p>Free diagnostics and expert service. We fix your PC or laptop in our shop or right at your location within 45 minutes.</p>
+                <div class="hero-actions">
+                    <a href="#cta" class="btn btn-primary">Book Free Consultation</a>
+                    <a href="services.html" class="btn btn-secondary">View Pricing</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='500' height='400' viewBox='0 0 500 400'><rect width='100%' height='100%' fill='%23e2e8f0'/><text x='50%' y='50%' font-family='sans-serif' font-size='24' fill='%2394a3b8' text-anchor='middle'>Technician at Work Photo</text></svg>" alt="Computer Repair">
+            </div>
+        </div>
+    </section>
+
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title">What is Wrong with Your Device?</h2>
+            <div class="grid-4">
+                <div class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Won’t Turn On / Black Screen</h3>
+                    <a href="#cta" class="card-btn">Fix This Issue &rarr;</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔥</div>
+                    <h3>Running Slow / Overheating</h3>
+                    <a href="#cta" class="card-btn">Fix This Issue &rarr;</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💿</div>
+                    <h3>Windows & Software Setup</h3>
+                    <a href="#cta" class="card-btn">Fix This Issue &rarr;</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>Virus & Malware Removal</h3>
+                    <a href="#cta" class="card-btn">Fix This Issue &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="workflow">
+        <div class="container">
+            <h2 class="section-title">4 Simple Steps to a Healthy Computer</h2>
+            <div class="grid-4">
+                <div class="step">
+                    <div class="step-num">01</div>
+                    <h4>Leave a Request</h4>
+                    <p>Call us or fill out the form online.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">02</div>
+                    <h4>Free Diagnostics</h4>
+                    <p>We find the exact issue and estimate the cost.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">03</div>
+                    <h4>Transparent Repair</h4>
+                    <p>We fix the problem only after you approve the price.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">04</div>
+                    <h4>Ready Device</h4>
+                    <p>You test your computer, pay, and get your warranty.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">Why Smart Customers Choose Us</h2>
+            <div class="grid-2">
+                <div class="benefit-item">
+                    <h4>5+ Years of Experience</h4>
+                    <p>Certified technicians who know every hardware and software issue inside out.</p>
+                </div>
+                <div class="benefit-item">
+                    <h4>No Hidden Fees</h4>
+                    <p>The price we agree on before the repair is the final price you pay. Period.</p>
+                </div>
+                <div class="benefit-item">
+                    <h4>Parts in Stock</h4>
+                    <p>No long waiting times. We keep high-quality replacement parts ready on site.</p>
+                </div>
+                <div class="benefit-item">
+                    <h4>Pay for Results Only</h4>
+                    <p>If we can’t fix your hardware or solve the problem, you don’t pay a single cent.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="cta-section">
+        <div class="container cta-container">
+            <div class="cta-info">
+                <h2>Not Sure What the Problem Is?</h2>
+                <p>Describe your computer's symptoms, and we will estimate the repair cost for free.</p>
+            </div>
+            <form class="cta-form" onsubmit="event.preventDefault();">
+                <input type="text" placeholder="Your Name" required class="form-input">
+                <input type="tel" placeholder="Phone Number" required class="form-input">
+                <button type="submit" class="btn btn-primary">Get My Free Estimate</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="review-box">
+                <blockquote class="review-text">
+                    "My laptop stopped turning on right before a major deadline. They diagnosed it immediately and fixed it the same day. Highly professional and honest pricing!"
+                </blockquote>
+                <cite class="review-author">— Alex M.</cite>
+            </div>
+        </div>
+    </section>
+
+    <div id="phone-modal" class="modal-overlay">
+        <div class="modal-window">
+           <button class="modal-close">&times;</button>
+           <h3>Call a Technician</h3>
+           <p>Our manager is ready to help you. Click below to call us directly:</p>
+            <div class="modal-phone-box">
+              <a href="tel:+15550192834" class="modal-phone-number">+1 (555) 019-2834</a>
+            </div>
+            <a href="tel:+15550192834" class="btn btn-primary modal-call-btn">Call Now</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 PC Repair Experts. All rights reserved.</p>
+            <p>Open Daily: 8:00 AM – 8:00 PM</p>
+            <div class="footer-socials">
+                <a href="#">Telegram</a>
+                <a href="#">WhatsApp</a>
+                <a href="tel:+15550192834">Call Now</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

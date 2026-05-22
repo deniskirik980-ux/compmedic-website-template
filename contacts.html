@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us — CompMedic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">Comp<span>Medic</span></a>
+            <button class="burger-menu"><span></span><span></span><span></span></button>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services & Pricing</a>
+                <a href="contacts.html" class="nav-link active">Contact Us</a>
+            </nav>
+            <a href="#" id="open-modal-btn" class="btn btn-outline header-btn">Call a Technician</a>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h2>We Are Ready to Help You Today</h2>
+        </div>
+    </section>
+
+    <section class="contacts-main">
+        <div class="container grid-2">
+            <div class="contact-info-block">
+                <h2>Contact Information</h2>
+                <ul class="contact-list">
+                    <li><strong>Phone:</strong> <a href="tel:+15550192834">+1 (555) 019-2834</a></li>
+                    <li><strong>Email:</strong> support@compmedic.com</li>
+                    <li><strong>Hours:</strong> Mon - Sun: 8:00 AM – 8:00 PM (No days off)</li>
+                    <li><strong>Address:</strong> 123 Tech Support Lane, Suite 100</li>
+                </ul>
+            </div>
+            <div class="map-placeholder">
+                <h2>How to Find Us</h2>
+                <p style="margin-bottom: 15px;">Located right next to the Central Subway Station. Free parking is available in the courtyard behind the pharmacy. Look for the neon "PC Repair" sign.</p>
+                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='250' viewBox='0 0 400 250'><rect width='100%' height='100%' fill='%23cbd5e1'/><text x='50%' y='50%' font-family='sans-serif' font-size='18' fill='%2364748b' text-anchor='middle'>Interactive Maps (Google Maps)</text></svg>" alt="Location Map">
+            </div>
+        </div>
+    </section>
+
+    <section class="on-site-section bg-light">
+        <div class="container grid-2 align-center">
+            <div>
+                <h2>Can’t Come to Us? We’ll Come to You!</h2>
+                <p style="margin-top: 10px; color: #475569;">Fill out the form below to book a certified technician to repair your computer at your home or office. On-site dispatch is free of charge.</p>
+            </div>
+            <form class="cta-form stacked-form" onsubmit="event.preventDefault();">
+                <input type="text" placeholder="Your Name" required class="form-input">
+                <input type="tel" placeholder="Phone Number" required class="form-input">
+                <input type="text" placeholder="Your Address & Preferred Time" required class="form-input">
+                <button type="submit" class="btn btn-primary">Request On-Site Repair</button>
+            </form>
+        </div>
+    </section>
+
+    <div id="phone-modal" class="modal-overlay">
+        <div class="modal-window">
+           <button class="modal-close">&times;</button>
+           <h3>Call a Technician</h3>
+           <p>Our manager is ready to help you. Click below to call us directly:</p>
+            <div class="modal-phone-box">
+              <a href="tel:+15550192834" class="modal-phone-number">+1 (555) 019-2834</a>
+            </div>
+            <a href="tel:+15550192834" class="btn btn-primary modal-call-btn">Call Now</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 PC Repair Experts. All rights reserved.</p>
+            <p>Open Daily: 8:00 AM – 8:00 PM</p>
+            <div class="footer-socials">
+                <a href="#">Telegram</a>
+                <a href="#">WhatsApp</a>
+                <a href="tel:+15550192834">Call Now</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
